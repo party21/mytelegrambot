@@ -176,12 +176,12 @@ public class MyAmazingBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "GvcCovidStatusbot";
+        return "<username>";
     }
 
     @Override
     public String getBotToken() {
-        return "1037997838:AAF-iSZ_ozwy8J_vb6LSJDawM9LjadpSJE4";
+        return "<token>";
     }
 
     private void sendMessage(Long id, String text) {

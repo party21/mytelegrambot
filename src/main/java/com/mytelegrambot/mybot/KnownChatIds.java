@@ -32,7 +32,7 @@ public class KnownChatIds {
 
     public String checkPhone(String phone) {
         String number ="works";
-        employeeRepository.findPhoneNumber("77026189889").getPhoneNumber();
+        employeeRepository.findPhoneNumber("<phone_number>").getPhoneNumber();
         return number;
     }
 
